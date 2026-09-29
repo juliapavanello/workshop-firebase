@@ -13,17 +13,25 @@
         android:textSize="20sp"
         android:layout_marginBottom="24dp" />
 
+    <EditText
+        android:id="@+id/edtFrase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escreva algo pra salvar" />
+
     <Button
-        android:id="@+id/btnChamarFuncao"
+        android:id="@+id/btnSalvar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Chamar Cloud Function" />
+        android:text="Salvar no Firestore"
+        android:layout_marginTop="8dp" />
 
     <TextView
         android:id="@+id/txtResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="16dp"
+        android:textStyle="italic" />
 
     <Button
         android:id="@+id/btnSair"
